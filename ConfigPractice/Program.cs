@@ -25,7 +25,24 @@ ConfigurationBuilder configurationBuilder = new ConfigurationBuilder();
 configurationBuilder.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 IConfigurationRoot configuration = configurationBuilder.Build();
 ServiceCollection services = new ServiceCollection();
-services.AddOptions();
+//注册与选项相关的服务
+services.AddOptions().Configure<DbSettings>(e => configuration.GetSection("DB").Bind(e))
+    .Configure<SmtpSettings>(e => configuration.GetSection("Smtp").Bind(e));
+//注册瞬态服务
+services.AddTransient<Demo>();
+using(var sp = services.BuildServiceProvider())
+{
+    while (true)
+    {
+        using(var scope = sp.CreateScope())
+        {
+            var spScope = scope.ServiceProvider;
+            var demo = spScope.GetRequiredService<Demo>();
+            demo.Test();
+        }
+        Console.ReadKey();
+    }
+}
 
 
 //定义两个模型类
@@ -51,6 +68,14 @@ class Demo
     {
         _optionsSnapshot = optionsSnapshot;
         _smtpSettingsSnapshot = smtpSettingsSnapshot;
+    }
+
+    public void Test()
+    {
+        var db = _optionsSnapshot.Value;
+        Console.WriteLine($"数据库:{db.DbType},{db.ConnectionString}");
+        var smtp = _smtpSettingsSnapshot.Value;
+        Console.WriteLine($"Smtp:{smtp.Server},{smtp.UserName},{smtp.Password}");
     }
 }
 

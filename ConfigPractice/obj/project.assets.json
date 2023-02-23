@@ -717,6 +717,7 @@
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.Configuration.Binder >= 7.0.3",
       "Microsoft.Extensions.Configuration.json >= 7.0.0",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Options >= 7.0.1"
     ]
   },
@@ -774,6 +775,10 @@
             "version": "[7.0.3, )"
           },
           "Microsoft.Extensions.Configuration.json": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
             "target": "Package",
             "version": "[7.0.0, )"
           },
