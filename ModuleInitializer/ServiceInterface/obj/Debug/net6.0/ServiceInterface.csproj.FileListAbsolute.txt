@@ -1,0 +1,12 @@
+E:\Practice\ModuleInitializer\ServiceInterface\bin\Debug\net6.0\ServiceInterface.deps.json
+E:\Practice\ModuleInitializer\ServiceInterface\bin\Debug\net6.0\ServiceInterface.dll
+E:\Practice\ModuleInitializer\ServiceInterface\bin\Debug\net6.0\ServiceInterface.pdb
+E:\Practice\ModuleInitializer\ServiceInterface\obj\Debug\net6.0\ServiceInterface.csproj.AssemblyReference.cache
+E:\Practice\ModuleInitializer\ServiceInterface\obj\Debug\net6.0\ServiceInterface.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practice\ModuleInitializer\ServiceInterface\obj\Debug\net6.0\ServiceInterface.AssemblyInfoInputs.cache
+E:\Practice\ModuleInitializer\ServiceInterface\obj\Debug\net6.0\ServiceInterface.AssemblyInfo.cs
+E:\Practice\ModuleInitializer\ServiceInterface\obj\Debug\net6.0\ServiceInterface.csproj.CoreCompileInputs.cache
+E:\Practice\ModuleInitializer\ServiceInterface\obj\Debug\net6.0\ServiceInterface.dll
+E:\Practice\ModuleInitializer\ServiceInterface\obj\Debug\net6.0\refint\ServiceInterface.dll
+E:\Practice\ModuleInitializer\ServiceInterface\obj\Debug\net6.0\ServiceInterface.pdb
+E:\Practice\ModuleInitializer\ServiceInterface\obj\Debug\net6.0\ref\ServiceInterface.dll

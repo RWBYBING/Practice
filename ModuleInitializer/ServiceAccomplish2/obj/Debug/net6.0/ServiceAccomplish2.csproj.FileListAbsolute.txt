@@ -1,0 +1,15 @@
+E:\Practice\ModuleInitializer\ServiceAccomplish2\bin\Debug\net6.0\ServiceAccomplish2.deps.json
+E:\Practice\ModuleInitializer\ServiceAccomplish2\bin\Debug\net6.0\ServiceAccomplish2.dll
+E:\Practice\ModuleInitializer\ServiceAccomplish2\bin\Debug\net6.0\ServiceAccomplish2.pdb
+E:\Practice\ModuleInitializer\ServiceAccomplish2\bin\Debug\net6.0\ServiceInterface.dll
+E:\Practice\ModuleInitializer\ServiceAccomplish2\bin\Debug\net6.0\ServiceInterface.pdb
+E:\Practice\ModuleInitializer\ServiceAccomplish2\obj\Debug\net6.0\ServiceAccomplish2.csproj.AssemblyReference.cache
+E:\Practice\ModuleInitializer\ServiceAccomplish2\obj\Debug\net6.0\ServiceAccomplish2.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practice\ModuleInitializer\ServiceAccomplish2\obj\Debug\net6.0\ServiceAccomplish2.AssemblyInfoInputs.cache
+E:\Practice\ModuleInitializer\ServiceAccomplish2\obj\Debug\net6.0\ServiceAccomplish2.AssemblyInfo.cs
+E:\Practice\ModuleInitializer\ServiceAccomplish2\obj\Debug\net6.0\ServiceAccomplish2.csproj.CoreCompileInputs.cache
+E:\Practice\ModuleInitializer\ServiceAccomplish2\obj\Debug\net6.0\ServiceAccomplish2.csproj.CopyComplete
+E:\Practice\ModuleInitializer\ServiceAccomplish2\obj\Debug\net6.0\ServiceAccomplish2.dll
+E:\Practice\ModuleInitializer\ServiceAccomplish2\obj\Debug\net6.0\refint\ServiceAccomplish2.dll
+E:\Practice\ModuleInitializer\ServiceAccomplish2\obj\Debug\net6.0\ServiceAccomplish2.pdb
+E:\Practice\ModuleInitializer\ServiceAccomplish2\obj\Debug\net6.0\ref\ServiceAccomplish2.dll

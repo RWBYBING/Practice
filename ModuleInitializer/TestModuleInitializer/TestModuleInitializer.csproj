@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Zack.Commons" Version="1.1.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ServiceAccomplish">
+      <HintPath>..\ServiceAccomplish\bin\Debug\net6.0\ServiceAccomplish.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceAccomplish2">
+      <HintPath>..\ServiceAccomplish2\bin\Debug\net6.0\ServiceAccomplish2.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceInterface">
+      <HintPath>..\ServiceInterface\bin\Debug\net6.0\ServiceInterface.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
